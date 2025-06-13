@@ -1,0 +1,65 @@
+{
+    "MarbleMaze": {
+        "checkpoints": [
+            {
+                "steps": 1999884,
+                "file_path": "results\\ppoTrueRun2\\MarbleMaze\\MarbleMaze-1999884.onnx",
+                "reward": 5.949999538188179,
+                "creation_time": 1748287146.958226,
+                "auxillary_file_paths": [
+                    "results\\ppoTrueRun2\\MarbleMaze\\MarbleMaze-1999884.pt"
+                ]
+            },
+            {
+                "steps": 2499915,
+                "file_path": "results\\ppoTrueRun2\\MarbleMaze\\MarbleMaze-2499915.onnx",
+                "reward": 19.45810707937926,
+                "creation_time": 1748287877.1937437,
+                "auxillary_file_paths": [
+                    "results\\ppoTrueRun2\\MarbleMaze\\MarbleMaze-2499915.pt"
+                ]
+            },
+            {
+                "steps": 2999912,
+                "file_path": "results\\ppoTrueRun2\\MarbleMaze\\MarbleMaze-2999912.onnx",
+                "reward": 29.989837527275085,
+                "creation_time": 1748288608.8804703,
+                "auxillary_file_paths": [
+                    "results\\ppoTrueRun2\\MarbleMaze\\MarbleMaze-2999912.pt"
+                ]
+            },
+            {
+                "steps": 3499985,
+                "file_path": "results\\ppoTrueRun2\\MarbleMaze\\MarbleMaze-3499985.onnx",
+                "reward": 29.991337537765503,
+                "creation_time": 1748289347.8423722,
+                "auxillary_file_paths": [
+                    "results\\ppoTrueRun2\\MarbleMaze\\MarbleMaze-3499985.pt"
+                ]
+            },
+            {
+                "steps": 3578801,
+                "file_path": "results\\ppoTrueRun2\\MarbleMaze\\MarbleMaze-3578801.onnx",
+                "reward": 29.991030703092875,
+                "creation_time": 1748289525.337143,
+                "auxillary_file_paths": [
+                    "results\\ppoTrueRun2\\MarbleMaze\\MarbleMaze-3578801.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 3578801,
+            "file_path": "results\\ppoTrueRun2\\MarbleMaze.onnx",
+            "reward": 29.991030703092875,
+            "creation_time": 1748289525.337143,
+            "auxillary_file_paths": [
+                "results\\ppoTrueRun2\\MarbleMaze\\MarbleMaze-3578801.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "2.2.2+cu121"
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "MarbleMaze": {
+        "checkpoints": [
+            {
+                "steps": 2499941,
+                "file_path": "results\\sacRun2\\MarbleMaze\\MarbleMaze-2499941.onnx",
+                "reward": null,
+                "creation_time": 1748449601.9035723,
+                "auxillary_file_paths": [
+                    "results\\sacRun2\\MarbleMaze\\MarbleMaze-2499941.pt"
+                ]
+            },
+            {
+                "steps": 2500858,
+                "file_path": "results\\sacRun2\\MarbleMaze\\MarbleMaze-2500858.onnx",
+                "reward": null,
+                "creation_time": 1748449669.6381936,
+                "auxillary_file_paths": [
+                    "results\\sacRun2\\MarbleMaze\\MarbleMaze-2500858.pt"
+                ]
+            },
+            {
+                "steps": 2999942,
+                "file_path": "results\\sacRun2\\MarbleMaze\\MarbleMaze-2999942.onnx",
+                "reward": null,
+                "creation_time": 1748476406.8135827,
+                "auxillary_file_paths": [
+                    "results\\sacRun2\\MarbleMaze\\MarbleMaze-2999942.pt"
+                ]
+            },
+            {
+                "steps": 3499921,
+                "file_path": "results\\sacRun2\\MarbleMaze\\MarbleMaze-3499921.onnx",
+                "reward": null,
+                "creation_time": 1748478122.1237326,
+                "auxillary_file_paths": [
+                    "results\\sacRun2\\MarbleMaze\\MarbleMaze-3499921.pt"
+                ]
+            },
+            {
+                "steps": 3818235,
+                "file_path": "results\\sacRun2\\MarbleMaze\\MarbleMaze-3818235.onnx",
+                "reward": null,
+                "creation_time": 1748479273.7039099,
+                "auxillary_file_paths": [
+                    "results\\sacRun2\\MarbleMaze\\MarbleMaze-3818235.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 3818235,
+            "file_path": "results\\sacRun2\\MarbleMaze.onnx",
+            "reward": null,
+            "creation_time": 1748479273.7039099,
+            "auxillary_file_paths": [
+                "results\\sacRun2\\MarbleMaze\\MarbleMaze-3818235.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "2.2.2+cu121"
+    }
+}
