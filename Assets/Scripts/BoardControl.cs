@@ -88,29 +88,5 @@ public class BoardControl : Agent
         goalReached.EnableColls();
     }
 
-    public override void Heuristic(in ActionBuffers actionsOut)
-    {
-        var continuousActionsOut = actionsOut.ContinuousActions;
-        continuousActionsOut[0] = 0f;
-        continuousActionsOut[1] = 0f;
-
-        if (Input.GetKey(KeyCode.W))
-        {
-            continuousActionsOut[1] = 1f;
-        }
-        else if (Input.GetKey(KeyCode.S)) 
-        {
-            continuousActionsOut[1] = -1f;
-        }
-        else if (Input.GetKey(KeyCode.D))
-        {
-            continuousActionsOut[0] = 1f;
-        }
-        else if (Input.GetKey(KeyCode.A))
-        {
-            continuousActionsOut[0] = -1f;
-        }
-    }
-
     
 }
